@@ -2,8 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+const tag = <strong><h1>blz</h1></strong>
+
 ReactDOM.render(
-  <h1>blz</h1>
+  <div>
+    { tag }
+  </div>
   ,
   document.getElementById('root')
 );
