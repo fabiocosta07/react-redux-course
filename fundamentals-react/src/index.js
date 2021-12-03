@@ -7,7 +7,12 @@ import SecondWithParam from './components/basics/SecondWithParam'
 ReactDOM.render(
   <div>
     <First></First>
-    <SecondWithParam title="title 1" subtitle="sub title 1"></SecondWithParam>
+    <SecondWithParam 
+      title="Student Result" 
+      student="Ze" score={9}/>
+    <SecondWithParam 
+      title="Student Result" 
+      student="Jao" score={6.5}/>
   </div>
   ,
   document.getElementById('root')
