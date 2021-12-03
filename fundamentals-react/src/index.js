@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-const tag = <strong><h1>blz</h1></strong>
+import First from './components/basics/First';
 
 ReactDOM.render(
   <div>
-    { tag }
+    <First></First>
+    <First></First>
+    <First></First>
   </div>
   ,
   document.getElementById('root')
