@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import First from './components/basics/First';
 import SecondWithParam from './components/basics/SecondWithParam'
+import Fragment from './components/basics/Fragment';
 
 ReactDOM.render(
   <div>
@@ -13,6 +14,7 @@ ReactDOM.render(
     <SecondWithParam 
       title="Student Result" 
       student="Jao" score={6.5}/>
+    <Fragment></Fragment>
   </div>
   ,
   document.getElementById('root')
