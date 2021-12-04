@@ -5,6 +5,7 @@ import Fragment from './components/basics/Fragment';
 import ThirdRandom from './components/basics/ThirdRandom';
 import Card from './components/basics/layout/Card';
 import './App.css'
+import Family from './components/basics/Family';
 export default _ => 
    <div className="App">
       <h1>Fundamentos react</h1>
@@ -27,6 +28,9 @@ export default _ =>
         </Card>
         <Card title="Fragment" color="#ffcf56">
           <Fragment></Fragment>
+        </Card>
+        <Card title="Family" color="#E63946">
+          <Family surname="Silva"></Family>
         </Card>
       </div>
    </div>
