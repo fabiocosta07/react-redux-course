@@ -3,10 +3,10 @@ import First from './components/basics/First';
 import SecondWithParam from './components/basics/SecondWithParam'
 import Fragment from './components/basics/Fragment';
 
-export default function App() {
+export default function(props) {
   return (
    <div id="app">
-      <h1>Fundamentos react</h1>
+      <h1>Fundamentos react 2</h1>
       <First></First>
       <SecondWithParam 
         title="Student Result" 
