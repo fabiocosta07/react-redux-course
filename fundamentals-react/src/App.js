@@ -6,6 +6,7 @@ import ThirdRandom from './components/basics/ThirdRandom';
 import Card from './components/basics/layout/Card';
 import './App.css'
 import Family from './components/basics/Family';
+import FamilyMember from './components/basics/FamilyMember';
 export default _ => 
    <div className="App">
       <h1>Fundamentos react</h1>
@@ -30,7 +31,10 @@ export default _ =>
           <Fragment></Fragment>
         </Card>
         <Card title="Family" color="#E63946">
-          <Family surname="Silva"></Family>
+          <Family surname="Silva">
+            <FamilyMember name="Ze" ></FamilyMember>
+            <FamilyMember name="Joao" ></FamilyMember>
+          </Family>
         </Card>
       </div>
    </div>
