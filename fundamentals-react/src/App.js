@@ -3,8 +3,7 @@ import First from './components/basics/First';
 import SecondWithParam from './components/basics/SecondWithParam'
 import Fragment from './components/basics/Fragment';
 
-export default function(props) {
-  return (
+export default _ => 
    <div id="app">
       <h1>Fundamentos react 2</h1>
       <First></First>
@@ -16,6 +15,5 @@ export default function(props) {
         student="Jao" score={6.5}/>
       <Fragment></Fragment>
    </div>
- );
-}
+
 
