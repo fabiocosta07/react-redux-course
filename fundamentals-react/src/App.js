@@ -9,6 +9,7 @@ import Family from './components/basics/Family';
 import FamilyMember from './components/basics/FamilyMember';
 import StudentsList from './components/list/StudentsList';
 import EvenOperator from './components/conditional/EvenOperator';
+import UserInfo from './components/conditional/UserInfo';
 export default _ => 
    <div className="App">
       <h1>Fundamentos react</h1>
@@ -43,8 +44,10 @@ export default _ =>
           <StudentsList></StudentsList>
         </Card>
 
-        <Card title="Even Operator" color="#a8dadc" >
+        <Card title="Conditional Rendering" color="#a8dadc" >
           <EvenOperator number="124"></EvenOperator>
+          <UserInfo user={{name:'ze'}}></UserInfo>
+          <UserInfo></UserInfo>
         </Card>
 
       </div>
