@@ -8,6 +8,7 @@ import './App.css'
 import Family from './components/basics/Family';
 import FamilyMember from './components/basics/FamilyMember';
 import StudentsList from './components/list/StudentsList';
+import EvenOperator from './components/conditional/EvenOperator';
 export default _ => 
    <div className="App">
       <h1>Fundamentos react</h1>
@@ -40,6 +41,10 @@ export default _ =>
 
         <Card title="List" color="#457B9D">
           <StudentsList></StudentsList>
+        </Card>
+
+        <Card title="Even Operator" color="#a8dadc" >
+          <EvenOperator number="124"></EvenOperator>
         </Card>
 
       </div>
