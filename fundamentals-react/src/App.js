@@ -11,6 +11,7 @@ import StudentsList from './components/list/StudentsList';
 import EvenOperator from './components/conditional/EvenOperator';
 import UserInfo from './components/conditional/UserInfo';
 import Parent from './components/comunication/Parent';
+import Input from './components/form/Input';
 export default _ => 
    <div className="App">
       <h1>Fundamentos react</h1>
@@ -52,6 +53,9 @@ export default _ =>
         </Card>
         <Card title="Inderect Comunication" color="#606c38">
           <Parent></Parent>
+        </Card>
+        <Card title="Form" color="#606c38">
+          <Input></Input>
         </Card>
       </div>
    </div>
