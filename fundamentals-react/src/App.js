@@ -7,6 +7,7 @@ import Card from './components/basics/layout/Card';
 import './App.css'
 import Family from './components/basics/Family';
 import FamilyMember from './components/basics/FamilyMember';
+import StudentsList from './components/list/StudentsList';
 export default _ => 
    <div className="App">
       <h1>Fundamentos react</h1>
@@ -36,6 +37,11 @@ export default _ =>
             <FamilyMember name="Joao" ></FamilyMember>
           </Family>
         </Card>
+
+        <Card title="List" color="#457B9D">
+          <StudentsList></StudentsList>
+        </Card>
+
       </div>
    </div>
 
