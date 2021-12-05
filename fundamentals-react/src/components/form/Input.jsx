@@ -8,7 +8,10 @@ export default props => {
     }
 
     return (
-        <div> 
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column'
+        }}> 
             <input value={value} onChange={whenChange}></input>
             <input value={value} readOnly></input>
             <input value={undefined} ></input>
