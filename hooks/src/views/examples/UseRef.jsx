@@ -21,7 +21,7 @@ const UseRef = (props) => {
                 <div>
                     <span className="text">valor:</span>
                     <span className="text">{value1} [</span>
-                    <span className="text">{count.current}</span>
+                    <span className="text red">{count.current}</span>
                     <span className="text">]</span>
                 </div>
             </div>
