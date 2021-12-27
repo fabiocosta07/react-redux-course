@@ -44,8 +44,8 @@ const UseContext = (props) => {
                 <span className="text">{text}</span>
                 <span className="text">{number}</span>
                 <div>
-                    <button className='btn' onClick={() => setNumber(number - 1)}>-1</button>
                     <button className='btn' onClick={() => setNumber(number + 1)}>+1</button>
+                    <button className='btn' onClick={() => setNumber(number - 1)}>-1</button>
                 </div>
             </div>
         </div>
