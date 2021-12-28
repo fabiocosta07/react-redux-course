@@ -3,7 +3,7 @@ import PageTitle from '../../components/layout/PageTitle'
 
 import { initialState, reducer } from '../../store'
 
-import { numberAdd2, login } from '../../store/action'
+import { numberAdd2, login } from '../../store/actions'
 
 const UseReducer2 = (props) => {
     const [state, dispatch] = useReducer(reducer, initialState)
